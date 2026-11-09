@@ -77,22 +77,6 @@ This section ends with:
 
 > but, if its hard to decide ...
 
-### NixOS
-
-The animation transitions through a temple graphic before displaying:
-
-> Made by Papeet2785
-
-followed by:
-
-> in Linux
-
-The final section introduces NixOS, with the text changing to:
-
-> in NixOS
-
-alongside the NixOS logo.
-
 ## Assets
 
 The project uses several image assets that are included directly in the repository:
@@ -108,10 +92,10 @@ assets/
 ```
 ## Running the Animation
 
-Enter the development shell:
+Use manim:
 
 ```bash
-nix develop countdown-manim
+uv sync
 ```
 To render the video:
 
